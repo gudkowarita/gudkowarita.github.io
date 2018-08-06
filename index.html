@@ -4,7 +4,7 @@
         <title>Landing</title>
 <style>
 .header {
-    padding: 15px;
+    padding: 10px;
     position: fixed;
     left: 0;
     top: 0;
@@ -12,8 +12,56 @@
     z-index: 997;
     background: rgba(138, 144, 255, 0.9);
 }
-.menu-nav li a:hover {
+.menu-nav_item {
+    list-style: none;
+}
+.menu-nav_link {
     text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+}
+.section_banner {
+    background: url(PICS/banner-bg.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.banner {
+    margin-top: 120px;
+    padding: 120px 0;
+}
+.banner-text_header {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.banner-text_body {
+    text-align: center;
+    padding: 10px 0;
+}
+.banner-text_body a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-text_body span {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 5px;
+}
+*{
+    padding: 0;
+    margin: 0;
 }
 </style>
     </head>
@@ -22,20 +70,38 @@
     <div class="container">
         <div class="menu">
             <div class="menu-logo">
-                <a href="#" class="menu-logo_link"><img src="logo.png"></a>
+                <a href="#" class="menu-logo_link"><img src="PICS\logo.png"></a>
             </div>
             <div class="menu-nav-container">
                 <div class="container">
                     <ul class="menu-nav">
-                        <li class="menu-nav_item"><a href="#">Home</a></li>
-                        <li class="menu-nav_item"><a href="#">About</a></li>
-                        <li class="menu-nav_item"><a href="#">Blog</a></li>
-                        <li class="menu-nav_item"><a href="#">Contacts</a></li>
+                        <li class="menu-nav_item"><a href="#" class="menu-nav_link">Home</a></li>
+                        <li class="menu-nav_item"><a href="#" class="menu-nav_link">About</a></li>
+                        <li class="menu-nav_item"><a href="#" class="menu-nav_link">Blog</a></li>
+                        <li class="menu-nav_item"><a href="#" class="menu-nav_link">Contacts</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </header>
+<main class="main">
+    <section class="section section_banner">
+        <div class="container">
+            <div class="banner-container">
+                <div class="banner">
+                    <div class="banner-text">
+                        <h1 class="banner-text_header">Products</h1>
+                        <div class="banner-text_body">
+                            <a href="#">Home</a>
+                            <span>- ></span>
+                            <a href="#">Products</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
     </body>
 </html>
