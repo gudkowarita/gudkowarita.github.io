@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            .header {
+                background: orange;
+                padding: 10px;
+            }
+            .main {
+                display: flex;
+                flex-direction: row;
+            }
+            .article {
+                background: blue;
+                flex: 3;
+                order:2;
+                padding: 10px;
+            }
+            .left {
+                background: aquamarine;
+                flex: 2;
+                order: 1;
+            }
+            .right {
+                background: pink;
+                flex: 2;
+                order: 3;
+            }
+            .footer {
+                padding: 10px;
+                background: red;
+            }
+        </style>
+    </head>
+    <body>
+<div class="container">
+    <header class="header">This is header!</header>
+    <main class="main">
+        <article class="article">This is article!</article>
+        <div class="left">Left</div>
+        <div class="right">Right</div>
+    </main>
+    <footer class="footer">Footer</footer>
+</div>
+<br>
+<h1>Форма ввода</h1>
+<form action="#" method="post">
+    <label for="login-field">Login</label>
+    <br>
+    <input type="text" name="login" id="login-field">
+    <br>
+    <label for="password-field">Password</label>
+    <br>
+    <input type="text" name="Password" id="password-field">
+    <br>
+    <br>
+    <input type="submit" value="enter">
+</form>
+    </body>
+</html>
