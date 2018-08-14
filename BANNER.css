@@ -1,0 +1,14 @@
+
+.header {
+    z-index: 50;
+    position: fixed;
+}
+.logo {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
