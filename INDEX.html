@@ -3,6 +3,17 @@
 <head>
     <title>Toples</title>
     <link rel="stylesheet" href="BANNER.css">
+    <link rel="stylesheet" href="МЕНЮ.css">
+    <link rel="stylesheet" href="classes-main.css">
+    <script type="text/javascript">   
+        $(document).ready(function(){
+        
+           $("#menu").click(function(){ $("#list").slideToggle(500)});
+           $("#menu").mouseover(function(){ $("#menu").css("background-color","#01939a")});
+           $("#menu").mouseout(function(){ $("#menu").css("background-color","#006064")});
+        
+        });                           
+        </script>    
 </head>
 <body>
     <div class="header">
@@ -11,5 +22,41 @@
             <img src="PICS (proj)\logo.jpg" width="100px">
         </div>
     </div>
+    <div class="main">
+        <div class="menu">
+    <p id="menu">
+        <ul id="list">
+        <li>Видео</li>
+        <li>Новости</li>
+        <li>Фишки и жизненные советы от Яна</li>
+        <li>Контакты</li>
+        <li>О создателе сайта</li>
+        </ul>
+    </div>
+    <img src="#" width="200px">
+    <div class="1art">Привет, это Ян</div>
+    <div class="2art">Ян уверен
+        <br>
+        <ul>
+            <li>Кто быстрее: человек или лошадь?</li>
+            <li>К какому вайфаю подключены деревья?</li>
+            <li>Почему женщины кажутся несмешными?</li>
+        </ul>
+        <br> Ты знаешь ответы? Нет? Вот они
+    </div>
+    <br>
+    <div class="vid1"></div>
+    <div class="vid2"></div>
+    <div class="vid3"></div>
+    <br>
+    <div class="3art">Вы где-нибудь видели</div>
+    <div class="vid4"></div>
+    <div class="4art">Ян со своей командой</div>
+</div>
+<div class="footer">
+    <div class="contactYan">Канал Яна</div>
+    <div class="contactMine"></div>
+    <div class="rights">All rights</div>
+</div>
 </body>
 </html>
