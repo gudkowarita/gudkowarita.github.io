@@ -1,0 +1,25 @@
+.menu{border:1px solid blueviolet; 
+    color:white;
+    width:250px;
+    padding:6px;
+    margin:0px;
+    background-color: blue;
+    font-size:1.1em;
+    }
+    .list
+    {
+    border-bottom:4px solid;
+    width:250px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    font-size:1.1em;
+    }
+    .list-li
+    {
+    padding:6px;
+    border-bottom-style:solid;
+    border-bottom-color: blueviolet;
+    border-width:3px;
+    background-color: violet;
+    }
