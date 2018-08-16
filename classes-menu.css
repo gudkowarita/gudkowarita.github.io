@@ -23,3 +23,11 @@
     border-width:3px;
     background-color: violet;
     }
+    .menu a:link {
+        text-decoration: none;
+    }
+    .listB {
+       transform: translateX(259px);
+       background: violet;
+       border: none;
+    }
