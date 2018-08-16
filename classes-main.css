@@ -1,5 +1,7 @@
 .main {
     font-size: 30px;
+    background: rgb(75, 25, 84);
+    color: white;
 }
 .main1{
     display: flex;
@@ -21,6 +23,7 @@
 }
 .main2 {
     text-align: center;
+    padding: 10px;
 }
 .main3 {
     display: flex;
@@ -29,6 +32,7 @@
 .vid1 {
     flex: 1;
     order: 1;
+    padding: 0 0 0 15px;
 }
 .vid2 {
     flex: 1;
@@ -52,4 +56,5 @@
 }
 .art4 {
     text-align: center;
+    padding: 15px;
 }
