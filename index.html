@@ -9,22 +9,75 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"> </script>  
        <script>
         $(document).ready(function(){
-        
-          $("a").mouseover(function(){ $("a").css("color","rgb(220, 162, 245)")}); 
-           $("a").mouseout(function(){ $("a").css("color","white")});
-           $("a").mouseout(function(){ $("a").css("text-decoration","none")});
-           $("#list").mouseover(function() { $("#listA").slideDown(500)});
-           $("#list").mouseout(function() { $("#listA").slideUp(500)});
-         
+            $("#listA").slideUp(0);
+           $("a").css("text-decoration","none");
+          
+           $("#list").click(function() { $("#listA").slideToggle(500)});
+
+           $("#allvideo").mouseover(function(){ $("#allvideo").css("color","rgb(220, 162, 245)")}); 
+           $("#allvideo").mouseout(function(){ $("#allvideo").css("color","blueviolet")});
+
+           $("#channel").css("color","white");
+             $("#channel").mouseover(function(){ $("#channel").css("color","rgb(220, 162, 245)")}); 
+             $("#channel").mouseout(function(){ $("#channel").css("color","white")}); 
+
+            $("#justvid").mouseover(function(){ $("#justvid").css("color","rgb(220, 162, 245)")}); 
+           $("#justvid").mouseout(function(){ $("#justvid").css("color","blueviolet")}); 
+
+           $("#cosmos").mouseover(function(){ $("#cosmos").css("color","rgb(220, 162, 245)")}); 
+           $("#cosmos").mouseout(function(){ $("#cosmos").css("color","blueviolet")}); 
+
+           $("#tech").mouseover(function(){ $("#tech").css("color","rgb(220, 162, 245)")}); 
+           $("#tech").mouseout(function(){ $("#tech").css("color","blueviolet")}); 
+
+            $("#fear").mouseover(function(){ $("#fear").css("color","rgb(220, 162, 245)")}); 
+           $("#fear").mouseout(function(){ $("#fear").css("color","blueviolet")}); 
+
+            $("#cino").mouseover(function(){ $("#cino").css("color","rgb(220, 162, 245)")}); 
+           $("#cino").mouseout(function(){ $("#cino").css("color","blueviolet")}); 
+
+            $("#animal").mouseover(function(){ $("#animal").css("color","rgb(220, 162, 245)")}); 
+           $("#animal").mouseout(function(){ $("#animal").css("color","blueviolet")}); 
+
+            $("#vlog").mouseover(function(){ $("#vlog").css("color","rgb(220, 162, 245)")}); 
+           $("#vlog").mouseout(function(){ $("#vlog").css("color","blueviolet")}); 
+
+           $("#game").mouseout(function(){ $("#game").css("color","blueviolet")});
+            $("#game").mouseover(function(){ $("#game").css("color","rgb(220, 162, 245)")}); 
+           
+            $("#news").mouseover(function(){ $("#news").css("color","rgb(220, 162, 245)")}); 
+            $("#news").mouseout(function(){ $("#news").css("color","blueviolet")}); 
+
+             $("#fishki").css("color","white");
+             $("#fishki").mouseover(function(){ $("#fishki").css("color","rgb(220, 162, 245)")}); 
+             $("#fishki").mouseout(function(){ $("#fishki").css("color","white")}); 
+
+              $("#contactTeam").css("color","white");
+             $("#contactTeam").mouseover(function(){ $("#contactTeam").css("color","rgb(220, 162, 245)")}); 
+             $("#contactTeam").mouseout(function(){ $("#contactTeam").css("color","white")}); 
+
+              $("#aboutMe").css("color","white");
+             $("#aboutMe").mouseover(function(){ $("#aboutMe").css("color","rgb(220, 162, 245)")}); 
+             $("#aboutMe").mouseout(function(){ $("#aboutMe").css("color","black")}); 
+
+              $("#contactChannel").css("color","white");
+             $("#contactChannel").mouseover(function(){ $("#contactChannel").css("color","rgb(220, 162, 245)")}); 
+             $("#contactChannel").mouseout(function(){ $("#contactChannel").css("color","gray")}); 
+
+             $("#myEmail").css("color","white");
+             $("#myEmail").mouseover(function(){ $("#myEmail").css("color","rgb(220, 162, 245)")}); 
+             $("#myEmail").mouseout(function(){ $("#myEmail").css("color","gray")}); 
+
+
         });                                         
         </script>    
 </head>
 <body>
     <div class="header">
         .
-       <div class="center"> <img src="PICS (proj)\header1.jpg" width=1140px height=200px></div>
+       <div class="center"> <img src="PICS (proj)/header1.jpg" width=1140px height=200px></div>
         <div class="logo">
-                <a href="https://www.youtube.com/user/toplesofficial"> <img src="PICS (proj)\logo.jpg" width="100px"> Канал Яна</a>
+                <a href="https://www.youtube.com/user/toplesofficial" id="channel"> <img src="PICS (proj)\logo.jpg" width="100px"> Канал Яна</a>
         </div>
     </div>
     <div class="main">
@@ -33,20 +86,20 @@
             <div class="menu1">
     <p id="menu">
         <ul> <div class="list list-li"> 
-        <div class="list-li"><li id="list"><a href="#">Видео</a><div class="listB"><ul id="listA">
-            <li><a href="#">Все видео</a></li>
-            <li><a href="#">Космос</a></li>
-            <li><a href="#">Технологии</a></li>
-            <li><a href="#">Страх</a></li>
-            <li><a href="#">Кино</a></li>
-            <li><a href="#">Животные</a></li>
-            <li><a href="#">Vlog</a></li>
-            <li><a href="#">Игры</a></li>
-        </ul></div></li></div>
-        <div class="list-li"><li><a href="#">Новости</a></li></div>
-        <div class="list-li"><li><a href="#">Фишки и жизненные советы от Яна</a></li></div>
-        <div class="list-li"><li><a href="#">Контакты</a></li></div>
-        <div class="list-li"><li><a href="#">О создателе сайта</a></li></div>
+        <div class="list-li"><li id="list"><a href="#" id="justvid">Видео</a></li><div class="listB"><ul id="listA">
+            <li ><a href="#" id="allvideo">Все видео</a></li>
+            <li><a href="#" id="cosmos">Космос</a></li>
+            <li><a href="#" id="tech">Технологии</a></li>
+            <li><a href="#" id="fear">Страх</a></li>
+            <li><a href="#" id="cino">Кино</a></li>
+            <li><a href="#" id="animal">Животные</a></li>
+            <li><a href="#" id="vlog">Vlog</a></li>
+            <li><a href="#" id="game">Игры</a></li>
+        </ul></div></div>
+        <div class="list-li"><li><a href="#" id="news">Новости</a></li></div>
+        <div class="list-li"><li><a href="#" id="fishki">Фишки и жизненные советы от Яна</a></li></div>
+        <div class="list-li"><li><a href="#" id="contactTeam">Контакты</a></li></div>
+        <div class="list-li"><li><a href="#" id="aboutMe">О создателе сайта</a></li></div>
         </div></ul> </p>
     </div>
     </div>
@@ -76,8 +129,8 @@
     <div class="art4">Ян со своей командой создали уже более 140 роликов на самые разные тематики и прокачивают мозги своих подписчиков более 5 лет!</div>
 </div>
 <div class="footer">
-    <div class="contactYan"><a href="https://www.youtube.com/user/toplesofficial">Канал Яна</a></div>
-    <div class="contactMine">Е-mail создателя</div>
+    <div class="contactYan"><a href="https://www.youtube.com/user/toplesofficial" id="contactChannel">Канал Яна</a></div>
+    <div class="contactMine"> <a href=# id="myEmail">Е-mail создателя </a></div>
     <div style="clear: left"></div>
     <div class="rights">All rights reserved</div>
 </div>
