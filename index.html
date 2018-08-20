@@ -7,75 +7,94 @@
     <link rel="stylesheet" href="classes-main.css">
     <link rel="stylesheet" href="classes-footer.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"> </script>  
-       <script>
+       <script type="text/javascript">
         $(document).ready(function(){
             $("#listA").slideUp(0);
            $("a").css("text-decoration","none");
           
            $("#list").click(function() { $("#listA").slideToggle(500)});
 
+            $("#allvideo").css("color","rgb(64, 5, 89)");
            $("#allvideo").mouseover(function(){ $("#allvideo").css("color","rgb(220, 162, 245)")}); 
-           $("#allvideo").mouseout(function(){ $("#allvideo").css("color","blueviolet")});
+           $("#allvideo").mouseout(function(){ $("#allvideo").css("color","rgb(64, 5, 89)")});
 
            $("#channel").css("color","white");
              $("#channel").mouseover(function(){ $("#channel").css("color","rgb(220, 162, 245)")}); 
              $("#channel").mouseout(function(){ $("#channel").css("color","white")}); 
-
-            $("#justvid").mouseover(function(){ $("#justvid").css("color","rgb(220, 162, 245)")}); 
-           $("#justvid").mouseout(function(){ $("#justvid").css("color","blueviolet")}); 
-
+           
+             $("#justvid").css("color","rgb(64, 5, 89)");
+           $("#justvid").mouseover(function(){ $("#justvid").css("color","rgb(220, 162, 245)")}); 
+           $("#justvid").mouseout(function(){ $("#justvid").css("color","rgb(64, 5, 89)")}); 
+           
+           $("#cosmos").css("color","rgb(64, 5, 89)");
            $("#cosmos").mouseover(function(){ $("#cosmos").css("color","rgb(220, 162, 245)")}); 
-           $("#cosmos").mouseout(function(){ $("#cosmos").css("color","blueviolet")}); 
-
+           $("#cosmos").mouseout(function(){ $("#cosmos").css("color","rgb(64, 5, 89)")}); 
+           
+           $("#tech").css("color","rgb(64, 5, 89)");
            $("#tech").mouseover(function(){ $("#tech").css("color","rgb(220, 162, 245)")}); 
-           $("#tech").mouseout(function(){ $("#tech").css("color","blueviolet")}); 
-
+           $("#tech").mouseout(function(){ $("#tech").css("color","rgb(64, 5, 89)")}); 
+            
+           $("#fear").css("color","rgb(64, 5, 89)");
             $("#fear").mouseover(function(){ $("#fear").css("color","rgb(220, 162, 245)")}); 
-           $("#fear").mouseout(function(){ $("#fear").css("color","blueviolet")}); 
-
+           $("#fear").mouseout(function(){ $("#fear").css("color","rgb(64, 5, 89)")}); 
+            
+           $("#cino").css("color","rgb(64, 5, 89)");
             $("#cino").mouseover(function(){ $("#cino").css("color","rgb(220, 162, 245)")}); 
-           $("#cino").mouseout(function(){ $("#cino").css("color","blueviolet")}); 
-
+           $("#cino").mouseout(function(){ $("#cino").css("color","rgb(64, 5, 89)")}); 
+            
+           $("#animal").css("color","rgb(64, 5, 89)");
             $("#animal").mouseover(function(){ $("#animal").css("color","rgb(220, 162, 245)")}); 
-           $("#animal").mouseout(function(){ $("#animal").css("color","blueviolet")}); 
-
+           $("#animal").mouseout(function(){ $("#animal").css("color","rgb(64, 5, 89)")}); 
+           
+           $("#vlog").css("color","rgb(64, 5, 89)");
             $("#vlog").mouseover(function(){ $("#vlog").css("color","rgb(220, 162, 245)")}); 
-           $("#vlog").mouseout(function(){ $("#vlog").css("color","blueviolet")}); 
-
+           $("#vlog").mouseout(function(){ $("#vlog").css("color","rgb(64, 5, 89)")}); 
+          
+           $("#game").css("color","rgb(64, 5, 89)");
            $("#game").mouseout(function(){ $("#game").css("color","blueviolet")});
             $("#game").mouseover(function(){ $("#game").css("color","rgb(220, 162, 245)")}); 
            
+            $("#news").css("color","rgb(64, 5, 89)");
             $("#news").mouseover(function(){ $("#news").css("color","rgb(220, 162, 245)")}); 
             $("#news").mouseout(function(){ $("#news").css("color","blueviolet")}); 
-
-             $("#fishki").css("color","white");
+            
+             $("#fishki").css("color","rgb(64, 5, 89)");
              $("#fishki").mouseover(function(){ $("#fishki").css("color","rgb(220, 162, 245)")}); 
-             $("#fishki").mouseout(function(){ $("#fishki").css("color","white")}); 
-
-              $("#contactTeam").css("color","white");
+             $("#fishki").mouseout(function(){ $("#fishki").css("color","rgb(64, 5, 89)")}); 
+            
+              $("#contactTeam").css("color","rgb(64, 5, 89)");
              $("#contactTeam").mouseover(function(){ $("#contactTeam").css("color","rgb(220, 162, 245)")}); 
-             $("#contactTeam").mouseout(function(){ $("#contactTeam").css("color","white")}); 
-
-              $("#aboutMe").css("color","white");
+             $("#contactTeam").mouseout(function(){ $("#contactTeam").css("color","rgb(64, 5, 89)")}); 
+            
+              $("#aboutMe").css("color","rgb(64, 5, 89)");
              $("#aboutMe").mouseover(function(){ $("#aboutMe").css("color","rgb(220, 162, 245)")}); 
-             $("#aboutMe").mouseout(function(){ $("#aboutMe").css("color","black")}); 
-
-              $("#contactChannel").css("color","white");
+             $("#aboutMe").mouseout(function(){ $("#aboutMe").css("color","rgb(64, 5, 89)")}); 
+             
+              $("#contactChannel").css("color","gray");
              $("#contactChannel").mouseover(function(){ $("#contactChannel").css("color","rgb(220, 162, 245)")}); 
              $("#contactChannel").mouseout(function(){ $("#contactChannel").css("color","gray")}); 
-
-             $("#myEmail").css("color","white");
+             
+             $("#myEmail").css("color","gray");
              $("#myEmail").mouseover(function(){ $("#myEmail").css("color","rgb(220, 162, 245)")}); 
              $("#myEmail").mouseout(function(){ $("#myEmail").css("color","gray")}); 
-
-
         });                                         
-        </script>    
+        </script>
+        <style>
+            .size{
+                width:1140px;
+                height:200px;
+            }
+            @media screen and (max-width: 850px) {
+     .size {
+        width: 850px;
+    }
+}
+        </style>
 </head>
 <body>
     <div class="header">
         .
-       <div class="center"> <img src="PICS (proj)/Header1.jpg" width=1140px height=200px></div>
+       <div class="center"> <img src="PICS (proj)/Header1.jpg" class="size"> </div>
         <div class="logo">
                 <a href="https://www.youtube.com/user/toplesofficial" id="channel"> <img src="PICS (proj)\logo.jpg" width="100px"> Канал Яна</a>
         </div>
@@ -103,7 +122,7 @@
         </div></ul> </p>
     </div>
     </div>
-    <div class="img1"><img src="PICS (proj)/афсу.jpg" height="400px"></div>
+    <div class="img1"><img src="PICS (proj)/афсу.jpg"></div>
     <div class="art1">Привет, это Ян, и он самый крутой научпоп-блогер, который делает очень крутые, красивые и познавательные ролики.</div>
 </div>
     <div class="main2">Ян уверен, что в мире существует множество интересных вещей.
@@ -132,7 +151,7 @@
     <div class="contactYan"><a href="https://www.youtube.com/user/toplesofficial" id="contactChannel">Канал Яна</a></div>
     <div class="contactMine"> <a href=# id="myEmail">Е-mail создателя </a></div>
     <div style="clear: left"></div>
-    <div class="rights">All rights reserved</div>
+    <div class="rights">© Copiright, 2018 <br>All rights reserved</div>
 </div>
 </body>
 </html>
