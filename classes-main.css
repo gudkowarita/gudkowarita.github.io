@@ -20,6 +20,7 @@
     margin: 20px;
     flex: 1;
     order: 2;
+    height: 400px;
 }
 .main2 {
     text-align: center;
@@ -60,3 +61,45 @@
     text-align: center;
     padding: 15px;
 }
+@media screen and (max-width: 850px) {
+    .main {
+        max-width: auto;
+        width: 100%;
+        margin: 0;
+    }
+    .main3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .vid1 {
+        order: 1;
+        padding: 0;
+    }
+    .vid2 {
+        order: 2;
+    }
+    .vid3 {
+        order: 3;
+    }
+    .img1 {
+        width: 150px;
+    }
+    .art1 {
+        float: left;
+    }
+    .main1{
+        display: flex;
+        flex-direction: column;
+    }
+    .art1 {  
+        margin: 30px;
+        flex: 1;
+        order: 3;
+    }
+    
+    .main4 {
+        display: flex;
+        flex-direction: column;
+    }
+   
+ }
