@@ -18,6 +18,9 @@
     color: white;
     text-decoration: none;
 }
+.major {
+    float: right;
+}
 *{
     padding: 0;
     margin: 0;
