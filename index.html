@@ -13,11 +13,9 @@
            $("a").css("text-decoration","none");
           
            $("#list").click(function() { $("#listA").slideToggle(500)});
-
             $("#allvideo").css("color","rgb(64, 5, 89)");
            $("#allvideo").mouseover(function(){ $("#allvideo").css("color","rgb(220, 162, 245)")}); 
            $("#allvideo").mouseout(function(){ $("#allvideo").css("color","rgb(64, 5, 89)")});
-
            $("#channel").css("color","white");
              $("#channel").mouseover(function(){ $("#channel").css("color","rgb(220, 162, 245)")}); 
              $("#channel").mouseout(function(){ $("#channel").css("color","white")}); 
@@ -56,7 +54,7 @@
            
             $("#news").css("color","rgb(64, 5, 89)");
             $("#news").mouseover(function(){ $("#news").css("color","rgb(220, 162, 245)")}); 
-            $("#news").mouseout(function(){ $("#news").css("color","blueviolet")}); 
+            $("#news").mouseout(function(){ $("#news").css("color","rgb(64, 5, 89)")}); 
             
              $("#fishki").css("color","rgb(64, 5, 89)");
              $("#fishki").mouseover(function(){ $("#fishki").css("color","rgb(220, 162, 245)")}); 
@@ -86,7 +84,7 @@
             }
             @media screen and (max-width: 850px) {
      .size {
-        width: 850px;
+        width: 100%;
     }
 }
         </style>
@@ -106,18 +104,18 @@
     <p id="menu">
         <ul> <div class="list list-li"> 
         <div class="list-li"><li id="list"><a href="#" id="justvid">Видео</a></li><div class="listB"><ul id="listA">
-            <li ><a href="#" id="allvideo">Все видео</a></li>
-            <li><a href="#" id="cosmos">Космос</a></li>
-            <li><a href="#" id="tech">Технологии</a></li>
-            <li><a href="#" id="fear">Страх</a></li>
-            <li><a href="#" id="cino">Кино</a></li>
-            <li><a href="#" id="animal">Животные</a></li>
-            <li><a href="#" id="vlog">Vlog</a></li>
-            <li><a href="#" id="game">Игры</a></li>
+            <li ><a href="video.html" id="allvideo">Все видео</a></li>
+            <li><a href="video.html#cos1" id="cosmos">Космос</a></li>
+            <li><a href="video.html#tech1" id="tech">Технологии</a></li>
+            <li><a href="video.html#fea1" id="fear">Страх</a></li>
+            <li><a href="video.html#cin1" id="cino">Кино</a></li>
+            <li><a href="video.html#ani1" id="animal">Животные</a></li>
+            <li><a href="video.html#vlo1" id="vlog">Vlog</a></li>
+            <li><a href="video.html#gam1" id="game">Игры</a></li>
         </ul></div></div>
         <div class="list-li"><li><a href="#" id="news">Новости</a></li></div>
         <div class="list-li"><li><a href="#" id="fishki">Фишки и жизненные советы от Яна</a></li></div>
-        <div class="list-li"><li><a href="#" id="contactTeam">Контакты</a></li></div>
+        <div class="list-li"><li><a href="contacts.html" id="contactTeam">Контакты</a></li></div>
         <div class="list-li"><li><a href="#" id="aboutMe">О создателе сайта</a></li></div>
         </div></ul> </p>
     </div>
