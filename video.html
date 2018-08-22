@@ -77,10 +77,13 @@
              $("#myEmail").css("color","gray");
              $("#myEmail").mouseover(function(){ $("#myEmail").css("color","rgb(220, 162, 245)")}); 
              $("#myEmail").mouseout(function(){ $("#myEmail").css("color","gray")}); 
-
               $("#link-text").css("color","gray");
              $("#link-text").mouseover(function(){ $("#link-text").css("color","rgb(220, 162, 245)")}); 
              $("#link-text").mouseout(function(){ $("#link-text").css("color","gray")}); 
+
+             $("#major1").css("color", "white");
+             $("#major1").mouseover(function() { $("#major1").css("color", "rgb(220, 162, 245)")});
+             $("#major1").mouseout(function() { $("#major1").css("color", "white")});
         });                                         
         </script>
         <style>
@@ -103,19 +106,71 @@
 .card-body {
     color: black;
 }
+.card {
+    background: #a480a8;
+}
+.major {
+    font-size: 35px;
+    padding: 10px;
+}
+.wrap {
+            position:fixed;
+            height: 100%;
+            top: 0;
+            width: 80px;
+            left: 0;
+            z-index: 100;
+        }
+        .controlbar {
+            height: 100%;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+        }
+        .wrap:hover {
+            background: #e895f3;
+            opacity: 0.7;
+        }
+        .controlbar {
+            top: 10%;
+            position: relative;
+        }
+        a.controlbar {
+            opacity: 0;
+        }
+        a.controlbar:hover {
+            text-decoration: none;
+            opacity: 1;
+            color: black;
+            font-size: 20px;
+        }
+        .main {
+            z-index: 10;
+        }
         </style>
 </head>
 <body>
+    
+    <a name="top1"> </a>
+    <div class="wrap">
+        <a href="#top1" class="controlbar">
+            <span class="bar-desk">Наверх</span>
+        </a>
+    </div>
+
     <div class="header">
         .
        <div class="center"> <img src="PICS (proj)/Header1.jpg" class="size"> </div>
         <div class="logo">
                 <a href="https://www.youtube.com/user/toplesofficial" id="channel"> <img src="PICS (proj)\logo.jpg" width="100px"> Канал Яна</a>
-        </div>
+                <div class="major"><a href="index.html" id="major1">На главную</a></div>
+            </div>
     </div>
 
+   
 
 <div class="main">
+    
   <div class="main1">
         <div class="menu">
             <div class="menu1">
@@ -131,10 +186,10 @@
             <li><a href="video.html#vlo1" id="vlog">Vlog</a></li>
             <li><a href="video.html#gam1" id="game">Игры</a></li>
         </ul></div></div>
-        <div class="list-li"><li><a href="#" id="news">Новости</a></li></div>
-        <div class="list-li"><li><a href="#" id="fishki">Фишки и жизненные советы от Яна</a></li></div>
+        <div class="list-li"><li><a href="news.html" id="news">Новости</a></li></div>
+        <div class="list-li"><li><a href="interview.html" id="fishki">Фишки и жизненные советы от Яна</a></li></div>
         <div class="list-li"><li><a href="contacts.html" id="contactTeam">Контакты</a></li></div>
-        <div class="list-li"><li><a href="#" id="aboutMe">О создателе сайта</a></li></div>
+        <div class="list-li"><li><a href="mine.html" id="aboutMe">О создателе сайта</a></li></div>
         </div></ul> </p>
     </div>
     </div>
@@ -371,7 +426,7 @@
 
     <div class="footer">
         <div class="contactYan"><a href="https://www.youtube.com/user/toplesofficial" id="contactChannel">Канал Яна</a></div>
-        <div class="contactMine"> <a href=# id="myEmail">Е-mail создателя </a></div>
+        <div class="contactMine"> <a href="mine.html" id="myEmail">Е-mail создателя </a></div>
         <div style="clear: left"></div>
         <div class="rights">© Copiright, 2018 <br>All rights reserved</div>
     </div>
