@@ -20,6 +20,7 @@
 }
 .major {
     float: right;
+    padding: 10px;
 }
 *{
     padding: 0;
