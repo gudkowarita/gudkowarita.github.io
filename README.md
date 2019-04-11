@@ -1,3 +1,3 @@
 # gudkowarita.github.io
 
-This is first full website
+Здесь разрабатывается персональный вебсайт владельца этого аккаунта
