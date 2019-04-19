@@ -1,0 +1,119 @@
+﻿/*.size {
+                width:1140px;
+                height:200px;
+            }
+            @media screen and (max-width: 850px) {
+     .size {
+        width: 100%;
+    }
+}*/
+
+:root {
+--center: center;
+}
+
+.header>#top_center {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+position: absolute;
+top: 0;
+}
+
+h1 {text-align: var(--center);
+width: 90%;}
+
+.main {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+position: absolute;
+top: 100%;
+width: 100%;
+}
+
+.functional_line {height: 5%;}
+.menu {
+    width: 70%;
+	float: right;
+text-align: right;
+}
+.menu>img {float: right;
+text-align: right;
+}
+.menu_ul {
+position: absolute;
+z-index: 150;
+float: left;
+text-align: right;
+width: 50%!important;
+
+}
+ul {width: 100%;
+background-color: white;
+padding-right: 10%;}
+.logo {wigth: 30%;}
+.row {width: 100%;
+text-align: var(--center);
+}
+.card-body {
+background-color: grey;
+    color: black;
+}
+.card {
+    background: #a480a8;
+}
+.icon {
+width: 15px;
+background-color: grey;
+}
+.major {
+    font-size: 35px;
+    padding: 10px;
+}
+.wrap {
+            position:fixed;
+            height: 100%;
+            top: 0;
+            width: 40px;
+            left: 0;
+            z-index: 100;
+        }
+        .controlbar {
+            height: 100%;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+        }
+        .wrap:hover {
+            background: #e895f3;
+            opacity: 0.7;
+        }
+        .controlbar {
+            top: 10%;
+            position: relative;
+        }
+        a.controlbar {
+            opacity: 0;
+        }
+        a.controlbar:hover {
+            text-decoration: none;
+            opacity: 1;
+            color: black;
+            font-size: 20px;
+        }
+        .main {
+            z-index: 10;
+        }
+        .imgx {
+            height: 400px;
+            padding-left: 90px;
+        }
+
+
+
+
+
+.footer {
+background-color: black;
+height: 5%;
+}
