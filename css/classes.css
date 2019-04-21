@@ -1,0 +1,145 @@
+﻿/*.size {
+                width:1140px;
+                height:200px;
+            }
+            @media screen and (max-width: 850px) {
+     .size {
+        width: 100%;
+    }
+}*/
+
+:root {
+--center: center;
+}
+
+.header>#top_center {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+position: absolute;
+top: 0;
+}
+
+h1 {text-align: var(--center);
+width: 100%;
+padding-top: 5%;}
+
+h3 {text-align: var(--center);
+padding-top: 2%;
+color: #919191;}
+
+.main {
+    line-height: 35px;
+position: absolute;
+top: 100%;
+width: 100%;
+}
+
+.functional_line {height: 5%;
+background-color: #fff;
+}
+.menu {
+    width: 70%;
+	float: right;
+text-align: right;
+}
+.menu>img {float: right;
+text-align: right;
+margin-right: 3%;
+}
+.menu_ul {
+position: absolute;
+z-index: 150;
+float: left;
+text-align: right;
+width: 50%!important;
+
+}
+ul {width: 100%;
+background-color: white;
+padding-right: 25%;}
+.logo {wigth: 30%;}
+.row {width: 100%;
+text-align: var(--center);
+}
+.row {margin-left: 0;}
+.card-body {
+background-color: #c2c2c2;
+    color: black;
+}
+.card {
+    background: #b5b5b5;
+margin: .5%;
+}
+.icon {
+width: 15px;
+background-color: grey;
+}
+.major {
+    font-size: 35px;
+    padding: 10px;
+}
+.wrap {
+            position:fixed;
+            height: 3%;
+            top: 85%;
+            width: 40px;
+            left: 90%;
+            z-index: 100;
+        }
+        .controlbar {
+            height: 100%;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+        }
+        .wrap:hover {
+            background: #e895f3;
+            opacity: 0.7;
+        }
+        .controlbar {
+            top: 10%;
+            position: relative;
+        }
+        a.controlbar {
+            opacity: 0.3;
+        }
+        a.controlbar:hover {
+            text-decoration: none;
+            opacity: 1;
+            color: black;
+            font-size: 20px;
+        }
+        .main {
+            z-index: 10;
+        }
+        .imgx {
+            height: 400px;
+            padding-left: 90px;
+        }
+
+.col-sm-6 {margin: auto;}
+.col-lg-4 {margin: auto;}
+.col-12 {margin: auto;}
+
+#facebook, #instagram, 
+#github, #twitter {
+color: gray;
+height: 32px;
+width: 32px;
+padding: .5%;
+border: 2px #b5b5b5 solid;
+}
+
+#facebook:hover, #instagram:hover, 
+#github:hover, #twitter:hover {background-color: white;
+border: 2px #f2f2f2 solid;
+border-radius: 20%;}
+
+.footer {
+background-color: #b5b5b5;
+height: 5%;
+}
+
+.footer>.row {justify-content: space-around;
+}
