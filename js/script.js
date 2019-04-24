@@ -5,7 +5,7 @@ skills = document.querySelector("#skills"),
 fullMenu = document.querySelector("ul"),
 titles = document.querySelector("h1"),
 crossMenu = document.querySelector("#menuClose"),
-cm = document.querySelector("#cm"),
+cm = document.querySelector("#cm"),  //this is a list item with skills
 textH3 = document.querySelector("h3");
 
 fullMenu.style.display = 'none';
