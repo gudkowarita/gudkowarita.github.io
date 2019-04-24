@@ -63,7 +63,9 @@ width: 50%!important;
 }
 ul {width: 100%;
 background-color: white;
-padding-right: 25%;}
+padding-right: 25%;
+padding-left: 20%;
+}
 .logo {wigth: 30%;}
 .row {width: 100%;
 text-align: var(--center);
