@@ -37,6 +37,12 @@ width: 100%;
 
 .functional_line {height: 5%;
 background-color: #fff;
+position: sticky;
+top: 0;
+z-index: 9;
+width: 100%;
+padding-top: 1%;
+padding-bottom: 1%;
 }
 .menu {
     width: 70%;
