@@ -23,11 +23,13 @@ top: 0;
 
 h1 {text-align: var(--center);
 width: 100%;
-padding-top: 5%;}
+padding-top: 5%;
+font-size: 2.5rem;}
 
 h3 {text-align: var(--center);
 padding-top: 2%;
-color: #919191;}
+color: #919191;
+font-size: 2rem;}
 
 .main {
     line-height: 35px;
@@ -74,7 +76,7 @@ text-align: var(--center);
 .card-body {
 background-color: #c2c2c2;
     color: black;
-
+font-size: 1.5rem;
 }
 .card {
     background: #b5b5b5;
@@ -124,16 +126,29 @@ background-color: grey;
 
 .wrap1 {
             position:absolute;
-            height: 30px;
+            height: 40px;
             top: 90%;
-            width: 30px;
+            width: 40px;
             left: 50%;
             z-index: 102;
 	    background: #e9ecef;
 	    border-radius: 50%;
  animation: move-in-steps 1.5s infinite;
+ -webkit-animation: move-in-steps 1.5s infinite;
+ -moz-animation: move-in-steps 1.5s infinite;
+ -o-animation: move-in-steps 1.5s infinite;
         }
 
+@-webkit-keyframes move-in-steps {
+  0% {
+    top: 90%;
+    background: grey;
+  }
+  100% {
+    top: 93%;
+    background: #b5b5b5;
+  }
+}
 @keyframes move-in-steps {
   0% {
     top: 90%;
@@ -144,6 +159,7 @@ background-color: grey;
     background: #b5b5b5;
   }
 }
+
 
         .controlbar1 {
             height: 100%;
@@ -156,9 +172,10 @@ background-color: grey;
             opacity: 0.7;
         }
         .controlbar1 {
-            top: 15%;
+            top: 0%;
 	    left: 2%;
             position: relative;
+	    font-size: 20pt;
         }
         a.controlbar1 {
             opacity: 0.3;
@@ -178,8 +195,10 @@ background-color: grey;
             padding-left: 90px;
         }
 
+.col-md-6 {margin: auto;}
 .col-sm-6 {margin: auto;}
 .col-lg-3 {margin: auto;}
+.col-sm-12 {margin: auto;}
 .col-12 {margin: auto;}
 
 #facebook, #instagram, 
@@ -204,3 +223,32 @@ padding-left: 5%;
 
 .footer>.row {justify-content: space-around;
 }
+
+
+@media screen and (max-width: 850px) {
+.wrap1, .wrap {width: 70px; height: 70px;}
+.controlbar1, .controlbar {top: 2%; font-size: 30pt;}
+.wrap {left: 80%;}
+
+@-webkit-keyframes move-in-steps {
+  0% {
+    top: 80%;
+    background: grey;
+  }
+  100% {
+    top: 85%;
+    background: #b5b5b5;
+  }
+}
+@keyframes move-in-steps {
+  0% {
+    top: 80%;
+    background: grey;
+  }
+  100% {
+    top: 85%;
+    background: #b5b5b5;
+  }
+}
+
+}/* end of media request*/
