@@ -227,11 +227,11 @@ padding-left: 5%;
 
 @media (min-resolution: 2dppx) {
 .wrap1, .wrap {width: 140px; height: 140px;}
-	.wrap1 {left: 45%;}
 .controlbar1, .controlbar {top: 10%; font-size: 50pt;}
 .wrap {left: 80%;}
 ul {font-size: 25pt;}
 .main {font-size: 1.5rem;}
+.wrap1 {left: 45%;}
 
 @-webkit-keyframes move-in-steps {
   0% {
