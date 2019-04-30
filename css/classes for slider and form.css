@@ -93,7 +93,7 @@ animation-duration: 1.5s;
     display: none;
 }
 
-.form input {
+.form input, .form textarea {
     outline: none;
     display: block;
     width: 100%;
@@ -113,6 +113,10 @@ animation-duration: 1.5s;
 }
 
 input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+textarea:valid:not(:placeholder-shown) {
     border-color: green;
 }
 
