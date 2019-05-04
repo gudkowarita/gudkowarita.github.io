@@ -47,8 +47,9 @@ width: 100%;
 padding-top: 1%;
 padding-bottom: 1%;
 }
+.logo>img {height: 45px;}
 .menu {
-    width: 70%;
+    width: 60%;
 	float: right;
 text-align: right;
 }
