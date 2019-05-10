@@ -6,7 +6,9 @@ fullMenu = document.querySelector("ul"),
 titles = document.querySelector("h1"),
 crossMenu = document.querySelector("#menuClose"),
 cm = document.querySelector("#cm"),  //this is a list item with skills
-textH3 = document.querySelector("h3");
+textH3 = document.querySelector("h3"),
+btnForForm = document.querySelector("#showForm"),
+formm = document.querySelector("form");
 
 fullMenu.style.display = 'none';
 crossMenu.style.display = 'none';
@@ -33,6 +35,9 @@ titles.style.opacity = '1';
 textH3.style.opacity = '1';
 }
 
+formm.style.opacity = '0.3';
+btnForForm.addEventListener("click", showForm);
+function showForm() {formm.style.opacity = '1';}
 
 //slider
 
